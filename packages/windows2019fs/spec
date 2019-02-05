@@ -1,0 +1,8 @@
+---
+name: windows2019fs
+
+dependencies:
+  - hydrate
+
+files:
+  - code.cloudfoundry.org/windows2016fs/2019/IMAGE_TAG
