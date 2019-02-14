@@ -26,7 +26,7 @@ instance_groups:
        driver_store: /var/vcap/data/groot
     release: winc
   - name: windows2019fs
-    release: windows2019fs
+    release: windowsfs
     properties:
       windows-rootfs:
         trusted_certs: |+
@@ -91,7 +91,7 @@ instance_groups:
           wCjbUCZD9/7d+S0h
           -----END CERTIFICATE-----
   - name: windows2019fs-smoke-test
-    release: windows2019fs
+    release: windowsfs
     properties:
       windows-rootfs:
         trusted_certs: |+
