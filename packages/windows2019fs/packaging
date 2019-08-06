@@ -5,7 +5,7 @@ $ROOTFS_OS_VERSION = "2019"
 $ROOTFS_OS_BUILD_NUMBER = "17763"
 $HOST_OS_BUILD_NUMBER = [System.Environment]::OSVersion.Version.Build
 if ($HOST_OS_BUILD_NUMBER -ne $ROOTFS_OS_BUILD_NUMBER) {
-  Write-Error "OS version mismatch. Rootfs version: ${ROOTFS_OS_VERSION} (${ROOTFS_OS_BUILD_NUMBER). Host build number: ${HOST_OS_BUILD_NUMBER}."
+  echo "ERROR: Rootfs - Host OS version mismatch. Rootfs OS version: ${ROOTFS_OS_VERSION} (${ROOTFS_OS_BUILD_NUMBER}). Host build number: ${HOST_OS_BUILD_NUMBER}."
   Exit 1
 }
 
