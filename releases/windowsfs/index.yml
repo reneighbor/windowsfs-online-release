@@ -73,4 +73,6 @@ builds:
     version: 2.9.0
   fa7eca8a-431b-4ff7-4f19-060537983865:
     version: 2.15.0
+  fe9667f5-0189-40fa-7a33-5d247ec2fe89:
+    version: 2.27.0
 format-version: "2"
