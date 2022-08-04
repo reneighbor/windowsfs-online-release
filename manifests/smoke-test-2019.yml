@@ -9,7 +9,7 @@ instance_groups:
 - name: smoke-test
   azs: [z1]
   instances: 1
-  vm_type: minimal
+  vm_type: small
   vm_extensions:
   - 50GB_ephemeral_disk
   stemcell: windows2019
